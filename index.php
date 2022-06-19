@@ -7,6 +7,7 @@ $casas = new casas();
 $listCiudades = $casas->Login_City();
 $listTipo = $casas->Logion_Type();
 $Precio = 100000;
+$canti=0;
 $Data = array();
 
 if (isset($_GET['full'])) {
